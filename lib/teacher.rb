@@ -3,7 +3,7 @@ class Teacher < User
   def teach
     knowledge = ["a String is a type of data in Ruby", "programming is hard, but it's worth it", "javascript async web request", "Ruby method call definition", "object oriented dog cat class instance", "class method class variable instance method instance variable", "programming computers hacking learning terminal", "bash Ruby rvm update certs"]
     knlg = Random.new
-    yes = knlg.rand(knowledge.length - 1)
-    binding.pry
+    choice = knlg.rand(knowledge.length - 1)
+    knowledge[choice]
   end
 end
