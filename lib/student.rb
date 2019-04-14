@@ -7,10 +7,10 @@ class Student < User
     # binding.pry
     @knowledge << knowledge
   end
-  #
-  # def knowledge
-  #   self.KNOWLEDGE
-  # end
+
+  def knowledge
+    @knowledge
+  end
 
 
 end
