@@ -4,7 +4,6 @@ class Student < User
   end
 
   def learn(knowledge)
-    # binding.pry
     @knowledge << knowledge
   end
 
