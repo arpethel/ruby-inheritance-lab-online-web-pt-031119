@@ -1,11 +1,11 @@
 class Student < User
   def initialize
-    knowledge = []
+    @knowledge = []
   end
 
   def learn(knowledge)
-    binding.pry
-    KNOWLEDGE << knowledge
+    # binding.pry
+    @knowledge << knowledge
   end
   #
   # def knowledge
